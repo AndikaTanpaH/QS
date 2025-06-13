@@ -20,7 +20,7 @@ No ~need~ for any dependencies, just a javascript script under 1KB.
 Just add qs.min.js or paste above your code before you start the selector.
 
 ```html
-<script src="/script-folder/qs.min.j"></script>
+<script src="/script-folder/qs.min.js"></script>
 
 <script>
 let el = qs('.books');
