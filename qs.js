@@ -1,5 +1,5 @@
 /*!
- * qs.js v1
+ * qs.js v1.0.1
  * Copyright (c) 2025 Andika Hermansyah
  * Licensed under the MIT License - https://github.com/AndikaTanpaH/QS
  */
