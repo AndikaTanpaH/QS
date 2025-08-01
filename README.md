@@ -56,7 +56,7 @@ const allItems = qs('.box span', true);  // always return array, even if only 1 
 
 ### 2. **Chaining Selektor**
 ```javascript
-const title = box.qs('> div').qs('span');
+const title = box.qs('> div:first-child').qs('span');
 ```
 
 ### 4. **Delegated Event Listener**
