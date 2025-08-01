@@ -63,6 +63,9 @@ const title = box.qs('> div:first-child').qs('span');
 Yup this libary has .on(), where it is usually used for event delegation or for listening to events.
 This can read elements added by DOM inserts. 
 ```javascript
+/*
+    (EventNmae, Target Element, Function)
+*/
 document.on('click', 'div',  (e) => {
     console.log('You clicked:', this);
 });
