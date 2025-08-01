@@ -43,7 +43,7 @@ function qs(selector, returnAsArray = false) {
 }
 
 // Adding to prototype: HTMLElement, Document, Window
-[HTMLElement.prototype, Document.prototype, Window.prototype].forEach(proto => {
+[HTMLElement.prototype, Document.prototype, Window.prototype, DocumentFragment.prototype].forEach(proto => {
     // qs for element scope
     if (!proto.qs) {
         proto.qs = function (selector, returnAsArray = false) {
