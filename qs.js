@@ -75,6 +75,7 @@ function qs(selector, returnAsArray = false) {
                 typeof maybeHandler === "function"
             ) {
                 this.addEventListener(eventName, function (event) {
+                    if (!(event.target instanceof Element)) return;
                     const delegateTarget = event.target.closest(selectorOrHandler);
                     if (delegateTarget && this.contains(delegateTarget)) {
                         maybeHandler.call(delegateTarget, event);
